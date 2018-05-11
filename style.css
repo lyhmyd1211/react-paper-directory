@@ -1,0 +1,32 @@
+.detail-card-directory {
+  border: none;
+  max-height: 70vh;
+  overflow-y: auto;
+  height: 100%;
+}
+.directory-default {
+  display: block;
+  color: #000;
+}
+
+.directory-H1 {
+  font-weight: 900;
+}
+
+.directory-H2 {
+  padding-left: 16px;
+  font-weight: 700;
+}
+
+.directory-H3 {
+  padding-left: 32px;
+  font-weight: 500;
+}
+
+.active {
+  background-color: #f3f3f3;
+}
+
+.ant-card-body {
+  padding: 24px 0px 24px 10px;
+}
