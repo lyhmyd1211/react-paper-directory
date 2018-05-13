@@ -1,6 +1,6 @@
 {
   "name": "react-directory-category",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "An article directory component for react",
   "main": "index.js",
   "directories": {
