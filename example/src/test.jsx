@@ -11,9 +11,47 @@ export default class Detail extends Component {
     return <div id="test">
         testss
         <h1>111</h1>
-        <h2>222</h2>
-        <h2>2222</h2>
-      <Directory directory={this._test} />
+        <div>test111</div>
+        <div>test111</div>
+        <div>test111</div>
+        <div>test111</div>
+        <div>test111</div>
+        <span>222</span>
+        <p>3333</p>
+        <p>322323</p>
+        <span>2222</span>
+        <p>23123</p>
+        <p>23123</p>
+        <p>34234</p>
+      <p>23123</p>
+      <p>23123</p>
+      <p>34234</p>
+      <p>23123</p>
+      <p>23123</p>
+      <p>34234</p>
+      <p>23123</p>
+      <p>23123</p>
+      <p>34234</p><p>23123</p>
+      <p>23123</p>
+      <p>34234</p><p>23123</p>
+      <p>23123</p>
+      <p>34234</p><p>23123</p>
+      <p>23123</p>
+      <p>34234</p>
+      <p>23123</p>
+      <p>23123</p>
+      <p>34234</p>
+      <p>23123</p>
+      <p>23123</p>
+      <p>34234</p><p>23123</p>
+      <p>23123</p>
+      <p>34234</p>
+      <p>23123</p>
+      <p>23123</p>
+      <p>34234</p><p>23123</p>
+      <p>23123</p>
+      <p>34234</p>
+      <Directory directory={this._test} rule={['h1','span','p']} />
       </div>;
   }
 }

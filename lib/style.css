@@ -1,0 +1,67 @@
+.detail-card-directory {
+  border: none;
+  max-height: 70vh;
+  overflow-y: auto;
+  height: 100%;
+}
+.directory-default {
+  color: #000;
+  width: 100%;
+  display: block;
+  /* margin-left: 23px; */
+  text-decoration: none;
+}
+.directory-default::before {
+  background: #000;
+  display: block;
+  content: '';
+  width: 5px;
+  height: 5px;
+  position: relative;
+  left: -20px;
+  top: 14px;
+}
+
+.directory-default-first {
+  font-weight: 900;
+  padding-left: 23px;
+}
+
+.directory-default-second {
+  padding-left: 39px;
+  font-weight: 700;
+}
+
+.directory-default-third {
+  padding-left: 55px;
+  font-weight: 500;
+}
+.directory-default-fourth{
+  padding-left: 71px;
+  font-weight: 300;
+}
+
+.directory-active {
+  /* background-color: #f3f3f3; */
+  /* height: 30px;
+  position: absolute;
+  display: block;
+  left: 0;
+  right: 0; */
+  background: #f3f3f3;
+  /* z-index: -1;
+  border-left: 2px solid #009A61;
+  -moz-transition: all .2s ease;
+  -o-transition: all .2s ease;
+  -webkit-transition: all .2s ease;
+  transition: all .2s ease; */
+}
+.main-default {
+  position: fixed;
+  left: 80vw;
+  top:0px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  height: 70vh;
+  width: 200px;
+}

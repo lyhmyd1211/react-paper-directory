@@ -1,7 +1,7 @@
 {
-  "name": "Directory",
-  "version": "1.0.0",
-  "description": "",
+  "name": "react-directory-category",
+  "version": "1.0.2",
+  "description": "An article directory component for react",
   "main": "index.js",
   "directories": {
     "lib": "lib"
@@ -9,26 +9,27 @@
   "files": [
     "dist"
   ],
+  "keywords": [
+    "Directory",
+    "react-directory",
+    "paper-directory",
+    "markdown-directory"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lyhmyd1211/react-paper-directory.git"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "bugs": {
+    "url": "https://github.com/lyhmyd1211/react-paper-directory/issues"
+  },
+  "author": "lyhmyd1211",
   "license": "ISC",
   "dependencies": {
-    "babel": "^6.23.0",
-    "babel-cli": "^6.26.0",
-    "babel-loader": "^7.1.4",
-    "babel-preset-es2015": "^6.24.1",
-    "babel-preset-react": "^6.24.1",
-    "babel-preset-stage-0": "^6.24.1",
-    "css-loader": "^0.28.11",
-    "file-loader": "^1.1.11",
     "react": "^16.3.2",
     "react-dom": "^16.3.2",
-    "react-router-dom": "^4.2.2",
-    "style-loader": "^0.21.0",
-    "webpack": "^4.8.1",
-    "webpack-cli": "^2.1.3",
-    "webpack-dev-server": "^3.1.4"
+    "react-router-dom": "^4.2.2"
   }
 }
